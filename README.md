@@ -1,5 +1,3 @@
-**COM1031 Morse Code Coursework**
-
 **Overview**
 
 Morse code is a character encoding scheme that encodes text characters as sequences of two values dot (.) and dash (-). We have implemented this data by representing them in a binary tree structure. In a binary tree structure, each node has at most 2 children, referred to as the left child and the right child. In the tree, each node stores the value of an English alphabet letter and data pointers to children’s nodes. We can extract a letter value by accessing its node i.e., by traversing through the binary tree, treating the left branch as a dot, and the right branch as a dash.
